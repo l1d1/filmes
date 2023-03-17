@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+form{
+	font-family: 'Quicksand', sans-serif;
+	width: 60vw;
+	margin-left: 20vw;
+	margin-top: 20vh;
+	min-height: 20vh;
+	background:linear-gradient(#F2C230,#152340);
+	border: 3px inset black;
+	border-radius: 22px;
+	text-shadow: 2px 2px 2px #152340;
+}
+form h1{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	margin-top: 5vh;
+	font-size: 25pt;
+	text-shadow: none;
+}
+
+form p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13pt;
+	margin-left: 10pt;
+	margin-top: 15pt;
+	text-shadow: none;
+}
+
+input{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-size: 13pt;
+}

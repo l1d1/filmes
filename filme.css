@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+	margin: 0px;
+	padding: 0px; /*serve pra eliminar espaço no topo*/
+}
+body{
+	background-image: url(../img/fireflies.gif);
+	background-size: cover;
+}
+#topo{
+	width: 100vw;
+	height: 20vh;
+	background-image: url(../img/fireflies2.gif);
+}
+#topo img{
+	width: 50%;
+	height: 50%;
+}
+#logo{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+#logo img{
+	width: 70%;
+	height: 100%;
+}
+#menu{
+	width: 70%;
+	height: 100%;
+	margin-left: 10%;
+}
+#menu img{
+	width: 70%;
+	height: 90%;
+}
+
+ul.nav{
+	list-style: none;
+}
+ul.nav li{
+	margin-top: 5vh;
+	margin-left: 6%;
+	float: left;
+	border-right: 2px inset black;
+	text-align: center;
+	width: 10%;
+	padding-top: 1%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 19pt;
+	color: white;
+	text-shadow: 2px 2px 2px #F2C230;
+
+}
+ul.nav li ol{
+	display: none;
+	list-style-type: none;
+	color: white;
+}
+ul.nav li:hover ol{
+   display: block;
+}
+ul.nav li ol li{
+	float: none;
+	border-right: 0px;
+	color: white;
+}
+ul.nav li ol li a{
+	text-decoration: none;
+	color: white;
+}
+ul.nav li ol li a:hover{
+	color: #A1A4A6;
+}
+#principal{
+	width: 90vw;
+	margin-left: 5vw;
+	height: 80vh;
+	position: fixed;
+}
+#principal iframe{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: 0px;
+}
+
+form{
+	width: 60vw;
+	margin-left: 20vw;
+	margin-top: 20vh;
+	min-height: 20vh;
+	background:linear-gradient(gray,white);
+	border: 3px inset black;
+	border-radius: 22px;
+}

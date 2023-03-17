@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+#home{
+	width: 60vw;
+	margin-left: 20vw;
+	margin-top: 10vw;
+	height: 50vh;
+	animation-name: animacao;
+	animation-duration: 4s;
+	text-align: center;
+	font-family: 'Sono', sans-serif;
+	color: white;
+}
+@keyframes animacao{
+	0%{
+		background-color: #0D0D0D;
+		font-size: 1rem;
+		text-indent: 10%;
+		color: #F2F2F2;
+		text-align: center;
+	}
+	45%{
+		background-color: #D9042B;
+		color: #0D0D0D;
+		font-size: 1.2rem;
+		text-indent: 15%;
+	}
+	90%{
+		background-color: #F29544; 
+		text-indent: 25%;
+		color: #0D0D0D;
+		box-shadow: 25px 25px 7px black;
+	}
+}
+#home h1{
+	font-size: 30pt;
+	text-shadow: #F2C230;
+}
+#home p{
+	font-size: 15pt;
+	text-shadow: #F2C230;
+}
