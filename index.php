@@ -3,7 +3,7 @@ require_once 'cabecalho.php';?>
 
 <div id="topo">
     <div id="logo">
-	<a href="principal.php"><img src="img/hnh.jpg"></a>
+	<a href="index.php"><img src="img/hnh.jpg"></a>
 	</div>
 	<div id="menu">
     <ul class="nav">
@@ -15,12 +15,6 @@ require_once 'cabecalho.php';?>
 			<li>Listar
 				<ol>
 					<li><a href="listarFilme.php" target="quadro">Listar</a></li>
-				</ol>
-			</li>
-
-			<li>Sair
-				<ol>
-			      <li><a href="sair.php" target="quadro">Log off</a></li>
 				</ol>
 			</li>
 		</ul>
