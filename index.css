@@ -1,0 +1,26 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+body{
+	background-image: url(../img/hogwarts2.jpg);
+}
+h1{
+margin-top: 16%;
+text-align: center;
+color: white;
+font-size: 60pt;
+text-shadow: 1px 1px 1px black;
+font-family: 'Harry Potter', sans-serif;
+}
+h2{
+font-size: 30pt;
+text-align: center;
+color: white;
+text-shadow: 1px 1px 1px black;
+font-family: 'Harry Potter', sans-serif;
+}
+h2 a{
+font-size: 30pt;
+color: #054BA6;
+text-shadow: 1px 1px 1px black;
+text-decoration: none;
+font-family: 'Harry Potter', sans-serif;
+}
